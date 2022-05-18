@@ -1,1 +1,53 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+body {
+  font-family: 'Amatic SC', cursive;
+  background-color: hsl(216, 28%, 7%);
+  color:hsl(216, 28%, 75%);
+}
+
+.light-is-on {
+  background-color: hsl(216, 28%, 100%);
+  color: hsl(216, 28%, 0%);
+  padding-bottom: 500px;
+}
+
+.light-is-off {
+  background-color: hsl(216, 28%, 7%);
+  color:hsl(216, 28%, 75%);
+  padding-bottom: 500px;
+}
+
+h1 {
+  font-size: 70px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+p {
+  text-align: center;
+  font-size: 45px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  font-family: 'Amatic SC', cursive;
+  font-size: 36px;
+  padding: 20px;
+  border: ridge 3px hsl(216, 28%, 20%);
+  border-radius: 5px;
+  background-color: hsl(216, 28%, 30%);
+  transition: 0.7s;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: hsl(216, 28%, 50%);
+  border: ridge 4px hsl(216, 28%, 30%);
+}
+
+

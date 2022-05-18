@@ -1,0 +1,8 @@
+<div
+[class.light-is-on]="lightStatus === 'on'"
+[class.light-is-off]="lightStatus === 'off'"
+>
+  <h1>Press the button to turn the light on or off!</h1>
+  <app-light [currentLightStatus]="lightStatus"></app-light>
+  <app-switch (switch)="flipTheSwitch()"></app-switch>
+</div>
