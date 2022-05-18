@@ -1,7 +1,8 @@
 # Light Switch (Angular Edition)
 
+![Light Switch Site Preview](https://user-images.githubusercontent.com/98148778/169157898-ee3cd81a-da26-42d9-945c-f35309590249.png)
+
 [Click here to view the app!](https://iridescent-beignet-e03c25.netlify.app/)
-![alt text](https://paste.pics/db7e8c366ca94503c1206f5b6f132bce "Site Preview Image")
 
 Create an Angular app that has the following:
 
